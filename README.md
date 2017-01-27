@@ -22,19 +22,42 @@
 
  #Launch BOT!
  
+ 
  git clone https://github.com/saleh6020/pvBotXlinkGP.git
  
+ 
 ----------------------------------------------------------------- 
+
+فایل bot.lua  را باز کنید 
+
+
  local bot_api_key = "" --BOT TOKEN تو کن ربات خود را در اینجا قرار دهید
+ 
+ 
     local You = 188548712 --ID ADMIN ایدی خود را اینجا قرار دهید
+    
+    
     local BASE_URL = "https://api.telegram.org/bot"..bot_api_key
+    
+    
     local BASE_FOLDER = ""
     
+    
     --------------------------------------------------------------------------------
+    
+    
  #Launch BOT!
+ 
+ 
+ 
  cd pvBotXlinkGP
+ 
+ 
  chmod +x ./launch.sh
+ 
+ 
  ./launch.sh
+ 
  
  
  ------------------------------------------
