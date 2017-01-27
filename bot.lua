@@ -33,7 +33,7 @@ local help = [[
 `/id` ✴️
 ایدی
 ➖➖➖➖➖➖➖➖➖➖➖
-M.KH @cruel0098
+S.M @manage_orders
 ]]--
 -------
 
@@ -363,7 +363,7 @@ user = bot.username
 else
 user = msg.from.username
 end
-local text = "سلام ["..msg.from.first_name.."](www.telegram.me/"..user..")\n\n[ربات خود را بسازید](http://opizo.com/3AGyRT)"
+local text = "" سلام به پشتیبان ربات BotXlinkGP خوش اومدی . هر پیامی داری ارسال کن و منتظر باش  ["..msg.from.first_name.."](www.telegram.me/"..user..")\n\n[کانال تلگرام ربات](https://telegram.me/BotXlinkGP_HELP)"
 sendMessage(msg.chat.id,text.."\n"..start,true,false,true)
 elseif msg.text == "/start" and is_add(msg) then
  	print(#add.id)
@@ -373,7 +373,7 @@ user = bot.username
 else
 user = msg.from.username
 end
-local text = "سلام ["..msg.from.first_name.."](www.telegram.me/"..user..")\n\n[ربات خود را بسازید](http://opizo.com/3AGyRT)"
+local text = "" سلام به پشتیبان ربات BotXlinkGP خوش اومدی . هر پیامی داری ارسال کن و منتظر باش  ["..msg.from.first_name.."](www.telegram.me/"..user..")\n\n[کانال تلگرام ربات](https://telegram.me/BotXlinkGP_HELP)"
 sendMessage(msg.chat.id,text.."\n"..start,true,false,true)
 elseif is_admin(msg) and msg.text == "/users" then
  	local r = tostring(#add.id)
